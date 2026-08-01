@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { NextRequest, NextResponse } from "next/server";
 import { checkRateLimit, searchLimiter } from "@/lib/rate-limit";
 import { sanitizeInput } from "@/lib/utils";
