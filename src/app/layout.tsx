@@ -64,7 +64,9 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">{children}
+      <script src="https://pl30639900.effectivecpmnetwork.com/a6/64/5e/a6645e387bb28a1c6016e32c25742dd2.js"></script>
+</body>
     </html>
   );
 }

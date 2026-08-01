@@ -3,6 +3,10 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { GameCard } from "@/components/games/GameCard";
 
+// 🎯 1. استدعاء مكونات الإعلانات
+import NativeAd from "@/components/NativeAd";
+import AdsterraBanner from "@/components/AdsterraBanner";
+
 const GAMES = [
   {
     id: "guess-the-player",
@@ -108,6 +112,14 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* 🎯 إعلان 1: Native Banner أو Banner 728x90 تحت الـ Hero تماماً */}
+        <div className="max-w-6xl mx-auto px-4 my-4">
+          <NativeAd />
+          {
+          <AdsterraBanner idKey="7c88f5960bd5dcf8cb7e3eec2b26b403" width={728} height={90} /> 
+          }
+        </div>
+
         {/* Games Grid */}
         <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
           <h2 className="text-2xl sm:text-3xl font-bold mb-10 text-center">
@@ -119,6 +131,11 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+
+        {/* 🎯 إعلان 2: Banner 300x250 بين الألعاب وحساب المستخدم */}
+        <div className="max-w-4xl mx-auto px-4 my-6">
+          <AdsterraBanner idKey="bea50751c6107165a7472377aca2b4bd" width={300} height={250} />
+        </div>
 
         {/* CTA Section */}
         <section className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-20">
