@@ -74,7 +74,7 @@ export function HigherLower() {
     if (phase === "gameover") {
       guest.onGameEnd();
     }
-  }, [phase]);
+  }, [phase, guest.onGameEnd]);
 
   const startGame = useCallback((type: StatType | "random") => {
     if (guest.blocked) {

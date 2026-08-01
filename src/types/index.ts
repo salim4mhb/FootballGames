@@ -120,20 +120,6 @@ export interface Streak {
   updated_at: string;
 }
 
-export interface LeaderboardEntry {
-  id: string;
-  user_id: string;
-  display_name: string;
-  avatar_url: string | null;
-  total_score: number;
-  games_played: number;
-  avg_score: number;
-  current_streak: number;
-  longest_streak: number;
-  rank: number | null;
-  updated_at: string;
-}
-
 export interface GuestLimitInfo {
   games_played_today: number;
   max_games: number;

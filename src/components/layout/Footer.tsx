@@ -51,11 +51,6 @@ export function Footer() {
             <h3 className="font-semibold text-sm mb-4 text-[var(--text-primary)]">Account</h3>
             <ul className="space-y-2.5 text-sm text-[var(--text-muted)]">
               <li>
-                <Link href="/leaderboard" className="hover:text-white transition-colors">
-                  Leaderboard
-                </Link>
-              </li>
-              <li>
                 <Link href="/auth/register" className="hover:text-white transition-colors">
                   Sign Up
                 </Link>

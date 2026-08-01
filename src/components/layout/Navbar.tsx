@@ -68,12 +68,6 @@ export function Navbar() {
           >
             Daily Challenge
           </Link>
-          <Link
-            href="/leaderboard"
-            className="text-sm text-[var(--text-secondary)] hover:text-white transition-colors whitespace-nowrap"
-          >
-            Leaderboard
-          </Link>
         </div>
 
         {/* Auth Buttons */}
@@ -101,13 +95,6 @@ export function Navbar() {
                     className="block px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:bg-white/5 hover:text-white transition-colors"
                   >
                     Profile
-                  </Link>
-                  <Link
-                    href="/leaderboard"
-                    onClick={() => setMenuOpen(false)}
-                    className="block px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:bg-white/5 hover:text-white transition-colors"
-                  >
-                    Leaderboard
                   </Link>
                   <hr className="border-[var(--border-color)] my-1" />
                   <button

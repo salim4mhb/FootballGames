@@ -69,7 +69,7 @@ export default function LoginPage() {
           </Link>
           <h1 className="text-2xl font-bold">Welcome Back</h1>
           <p className="text-[var(--text-secondary)] text-sm mt-2">
-            Log in to save your streaks and climb the leaderboard
+            Log in to save your streaks and unlock unlimited play
           </p>
         </div>
 

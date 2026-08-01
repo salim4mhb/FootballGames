@@ -36,8 +36,8 @@ export function CreateAccountCTA() {
             Create Your Free Account
           </h2>
           <p className="text-[var(--text-secondary)] mb-8 max-w-lg mx-auto leading-relaxed">
-            Save your streaks, climb the global leaderboard, and unlock
-            unlimited play. No credit card required.
+            Save your streaks, build your profile, and unlock unlimited play.
+            No credit card required.
           </p>
           <Link
             href="/auth/register"

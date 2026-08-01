@@ -70,8 +70,7 @@ export default function HomePage() {
             <p className="text-lg sm:text-xl text-[var(--text-secondary)] max-w-2xl mx-auto mb-10 leading-relaxed">
               Daily challenges with{" "}
               <span className="text-white font-semibold">5,000+</span> real
-              football players. Guess, match, and compete on the global
-              leaderboard.
+              football players. Guess, match, and test your football knowledge.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -80,12 +79,6 @@ export default function HomePage() {
                 className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold text-lg hover:opacity-90 transition-opacity animate-pulse-glow"
               >
                 ▶ Play Daily Challenge
-              </Link>
-              <Link
-                href="/leaderboard"
-                className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl border border-[var(--border-accent)] text-[var(--text-secondary)] hover:text-white hover:border-white/50 transition-colors"
-              >
-                🏆 Leaderboard
               </Link>
             </div>
 

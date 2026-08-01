@@ -71,7 +71,7 @@ export function FootballTrivia() {
     if (state?.gameOver) {
       guest.onGameEnd();
     }
-  }, [state?.gameOver]);
+  }, [state?.gameOver, guest.onGameEnd]);
 
   useEffect(() => {
     if (!state || state.gameOver || showFeedback) return;

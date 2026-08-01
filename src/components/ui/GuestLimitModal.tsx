@@ -45,7 +45,7 @@ export function GuestLimitModal({
               <span>✅</span> Save your 🔥 streaks
             </li>
             <li className="flex items-center gap-2">
-              <span>✅</span> Global leaderboard
+              <span>✅</span> Track your progress
             </li>
             <li className="flex items-center gap-2">
               <span>✅</span> Custom profile & badges

@@ -32,7 +32,7 @@ export function Top10Challenge() {
     if (gameOver !== "playing") {
       guest.onGameEnd();
     }
-  }, [gameOver]);
+  }, [gameOver, guest.onGameEnd]);
 
   const showToast = useCallback((message: string, type: "success" | "error") => {
     if (toastTimeout.current) clearTimeout(toastTimeout.current);
